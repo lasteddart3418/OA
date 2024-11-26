@@ -6,7 +6,7 @@ from discord.ext import commands
 from core import checks
 from core.models import PermissionLevel
 
-options_menu="You have provided invalid dept code.\n\n`mod` - Moderation Team\n`pt ` - Partnership Team\n`ct` - Community Team\n`marketing` - Marketing Team\n`dev` - Design/Development Team\n`services` - Services Team\n`hr`- Human Resources Team\n`exec` - Executive Team\n"
+options_menu="You have provided invalid dept code.\n\n`mod` - Moderation Team\n`pt ` - Partnership Team\n`ct` - Community Team\n`marketing` - Marketing Team\n`dev` - Design/Development Team\n`services` - Services Team\n`hr` - Human Resources Team\n`exec` - Executive Team\n"
 
 DEPS_DATA = {
         "mod": {
