@@ -26,13 +26,27 @@ DEPS_DATA = {
         "marketing": {
         "category_id": 1286879517864099840 ,
         "pretty_name": "Marketing Team",
-        "reminders": "Please join our [Promotions Server](https://discord.gg/D3NjzXn3) to learn more about our paid services. If you have any particular questions, a Marketing Team member will be happy to assist you! ",
+        "reminders": "Please visit our shop to learn more about our paid services. If you have any questions, a Marketing Team member will be happy to assist you! ",
         "role_id": 1286882681115901995,
         "send_message_to_user": True
     },
-        "events": {
+        "services": {
+        "category_id": 1287515041385545900 ,
+        "pretty_name": "Services Team",
+        "reminders": "Please have proof of your purchase ready for our staff to assist you in getting our order started.",
+        "role_id": 1311064170606755860,
+        "send_message_to_user": True
+    },        
+        "dev": {
+        "category_id": 1311059627399446598 ,
+        "pretty_name": "Design/Development Team",
+        "reminders": "In order for us to most efficiently assist you, please provide us with as much detail about your project as possible.",
+        "role_id": 1311062806971547719,
+        "send_message_to_user": True
+    },
+        "ct": {
         "category_id": 1286879984316579840 ,
-        "pretty_name": "Events Team",
+        "pretty_name": "Community Team",
         "reminders": "None",
         "role_id": 1286882898527649883,
         "send_message_to_user": True
@@ -42,13 +56,6 @@ DEPS_DATA = {
         "pretty_name": "Human Resources Team",
         "reminders": "If you're looking to report a staff member, please make sure to provide proof against this staff member. Please also make sure to check your report to ensure it breaks the rules before sending it.",
         "role_id": 1286882045380792350,
-        "send_message_to_user": True
-    },
-        "tm": {
-        "category_id": 1286880070501142612 ,
-        "pretty_name": "Team Managers",
-        "reminders": "If you're looking to Affiliate with us, please make sure to copy a __Permanent__ invite and post it into your Affiliation channel. Please also make sure the invite is permanent before sending your invite. If looking to claim booster perks, please state which perks you would like to claim.",
-        "role_id": 1286881802501226597,
         "send_message_to_user": True
     },
         "exec": {
