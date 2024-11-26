@@ -1,1 +1,54 @@
-
+{
+    "_id": "advanced-menu",
+    "anonymous_menu": false,
+    "close_on_timeout": false,
+    "dropdown_placeholder": "Click Me To Select an Option",
+    "embed_text": "What\u2019s up! Thanks for reaching out! In order to assist with your request faster, we now have an automated menu. Please select one of these options from the dropdown below. Be sure to read the descriptions of the options to choose the option that best suits your needs.\n(Options)\n> \ud83d\udc6e - Moderation Team\n> \ud83e\udd1d - Partnership Team\n> \ud83d\udcb0 - Marketing Team \n> \ud83c\udfe2 - Human Resources\n> \u2699\ufe0f - Team Managers\n> \ud83d\udc51 - Executive Team \n> \u2753 - General Question\n*To view all options in the dropdown menu, it may be necessary to scroll.*\n\n__**Please keep in mind that Ocean Support is not live chat and we are humans responding. Please bare with us and we appreciate your patience as we look forward to servicing your request.**__\n\nA \u2705 reaction indicates that your message has been received by our Support Team.",
+    "enabled": true,
+    "options": {
+        "moderation_team": {
+            "label": "Moderation Team",
+            "description": "Use this option to report a user for breaking the rules.",
+            "emoji": "\ud83d\udc6e",
+            "type": "command",
+            "callback": "transfer mod"
+        },
+        "partnership_team": {
+            "label": "Partnership Team",
+            "description": "Use this option to partner with Ocean Advertising.",
+            "emoji": "\ud83e\udd1d",
+            "type": "command",
+            "callback": "transfer pt"
+        },
+        "marketing_team": {
+            "label": "Marketing Team",
+            "description": "Use this option to inquire about our paid promotions and other services.",
+            "emoji": "\ud83d\udcb0",
+            "type": "command",
+            "callback": "transfer marketing"
+        },
+        "human_resources": {
+            "label": "Human Resources",
+            "description": "Use this option to report a staff member or to appeal a punishment.",
+            "emoji": "\ud83c\udfe2",
+            "type": "command",
+            "callback": "transfer hr"
+        },
+        "executive_team": {
+            "label": "Executive Team",
+            "description": "Use this option to report a member of HR or a Team Manager, or to speak directly to an Executive.",
+            "emoji": "\ud83d\udc51",
+            "type": "command",
+            "callback": "transfer exec"
+        },
+        "general_question": {
+            "label": "General Question",
+            "description": "Use this option for any general questions about our server.",
+            "emoji": "\u2753",
+            "type": "command",
+            "callback": "hi and && note General Question"
+        }
+    },
+    "submenus": {},
+    "timeout": 120
+}
