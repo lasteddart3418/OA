@@ -6,7 +6,7 @@ from discord.ext import commands
 from core import checks
 from core.models import PermissionLevel
 
-options_menu="You have provided invalid dept code.\n\n`mod` - Moderation Team\n`pt ` - Partnership Team\n`marketing` - Marketing Team\n`events` - Events Team\n`hr`- Human Resources Team\n`tm` - Team Managers\n`exec` - Executive Team\n"
+options_menu="You have provided invalid dept code.\n\n`mod` - Moderation Team\n`pt ` - Partnership Team\n`ct` - Community Team\n`marketing` - Marketing Team\n`dev` - Design/Development Team\n`services` - Services Team\n`hr`- Human Resources Team\n`exec` - Executive Team\n"
 
 DEPS_DATA = {
         "mod": {
@@ -23,11 +23,26 @@ DEPS_DATA = {
         "role_id": 1286882463271878656,
         "send_message_to_user": True
     },
+        "ct": {
+        "category_id": 1286879984316579840 ,
+        "pretty_name": "Community Team",
+        "reminders": "None",
+        "role_id": 1286882898527649883,
+        "send_message_to_user": True
+    },
         "marketing": {
         "category_id": 1286879517864099840 ,
         "pretty_name": "Marketing Team",
         "reminders": "Please visit our shop to learn more about our paid services. If you have any questions, a Marketing Team member will be happy to assist you! ",
         "role_id": 1286882681115901995,
+        "send_message_to_user": True
+                
+    },
+        "dev": {
+        "category_id": 1311059627399446598 ,
+        "pretty_name": "Design/Development Team",
+        "reminders": "In order for us to most efficiently assist you, please provide us with as much detail about your project as possible.",
+        "role_id": 1311062806971547719,
         "send_message_to_user": True
     },
         "services": {
@@ -37,20 +52,6 @@ DEPS_DATA = {
         "role_id": 1311064170606755860,
         "send_message_to_user": True
     },        
-        "dev": {
-        "category_id": 1311059627399446598 ,
-        "pretty_name": "Design/Development Team",
-        "reminders": "In order for us to most efficiently assist you, please provide us with as much detail about your project as possible.",
-        "role_id": 1311062806971547719,
-        "send_message_to_user": True
-    },
-        "ct": {
-        "category_id": 1286879984316579840 ,
-        "pretty_name": "Community Team",
-        "reminders": "None",
-        "role_id": 1286882898527649883,
-        "send_message_to_user": True
-    },
         "hr": {
         "category_id": 1286880031301177344 ,
         "pretty_name": "Human Resources Team",
